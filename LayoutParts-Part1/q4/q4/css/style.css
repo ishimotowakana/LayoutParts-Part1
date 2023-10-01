@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+.div-box {
+  width: 100%;
+  margin-top: 50px;
+  display: table;
+}
+
+.main-box .div-box:first-child {
+  margin-top: 0;
+}
+
+.graph-box {
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+}
+
+.red-box {
+  width: 300px;
+  background: #ff7b7b;
+}
+
+.blue-box {
+  background: #7b86ff;
+}
+
+.yellow-box {
+  width: 300px;
+  background: #fff27b;
+}
+
+.green-box {
+  background: #7bff91;
+}
+
+.pink-box {
+  width: 400px;
+  background: #ff7be2;
+}
+
+.orange-box {
+  width: 400px;
+  background: #ffc67b;
+}
+
+.skyblue-box {
+  background: #7bf2ff;
+}

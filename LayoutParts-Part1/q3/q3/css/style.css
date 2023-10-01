@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+.cell--table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.cell--table th {
+  font-size: 18px;
+  background-color: #319c4a;
+  line-height: 26px; /* 行間の上下の高さ */
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+
+.cell--table td {
+  font-size: 16px;
+  text-align: center;
+  line-height: 22px;
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.cell--table tr{
+  background: #d5ffc7;
+}
+
+.cell--table tr:nth-child(even){ /* 偶数列を指定 */
+  background: #bcbcbc;
+}
+
+.cell--table tbody tr:last-child{
+  border-top: 1px double #ffffff; /* 二重線 */
+}

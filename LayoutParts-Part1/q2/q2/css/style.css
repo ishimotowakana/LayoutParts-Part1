@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 回答はここから */
+
+.card {
+  display: flex;
+  justify-content: center; /* フレックスの主軸を中央に揃える。左右中央 */
+}
+
+.list {
+  width: 200px;
+  margin: 30px;
+  padding: 10px;
+  background: #d2b48c;
+  border-radius: 13px;  /* 角を丸くする */
+  outline: 10px  #655;  /* 要素の外側に輪郭を表示 */
+  outline-style: solid;  /* 一本線を表す値 */
+}
