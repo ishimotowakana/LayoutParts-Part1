@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* 回答はここから */
+
+.inline-box {
+  display: inline-block; /*　インラインブロック要素に変更した　*/
+  width: 200px;
+  padding: 20px 0; /* 上下の指定だけ */
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.text-box {
+  text-align:center; /*　水平方向に移動できる　*/
+}
+
+.text {
+  display: inline-block;
+  padding: 10px;
+  background-color: #a4b3e9;
+}
+
+.text-2 {
+  background-color: #a4b3e9;
+  margin: 0 auto ; /*　自動で均等に調整する　*/
+  padding: 10px;
+  text-align: center;
+  width: 90px;
+}
+
+.table {
+  display: table;
+}
+
+.box-1 {
+  text-align: center;
+  display: table-cell;  /*　要素を均等幅に指定できる　*/
+  vertical-align: middle; /* 垂直方向に指定できる */
+}
+
+.table-box {
+  padding: 10px;
+  background: #fff;
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+  justify-content: center; /* 水平方向(横軸)に指定できる */
+  align-items: center; /* 垂直方向(縦軸)に指定できる */
+}
+
+.flex-box {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.box-2 {
+  position: relative;
+}
+
+.position-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /*真ん中に移動*/
+  padding: 10px;
+  background: #a4b3e9;
+}
